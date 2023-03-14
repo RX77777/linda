@@ -11,7 +11,7 @@ services:
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 jep.py & bash start
     region: frankfurt
-    repo: https://github.com/SONIC-MUSIC-BOT/MAR     
+    repo: https://github.com/LLLP7/LINDA     
     branch: master
     envVars:
       - key: MUSIC_BOT_NAME
@@ -35,7 +35,7 @@ services:
       - key: PYTHON_VERSION
         value: 3.10.5
       - key: UPSTREAM_REPO
-        value: https://github.com/SONIC-MUSIC-BOT/MAR
+        value: https://github.com/lllP7/LINDA
       - key: UPSTREAM_BRANCH
         value: master 
       - key: DATABASE_URL
