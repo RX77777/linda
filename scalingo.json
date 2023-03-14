@@ -1,0 +1,65 @@
+{
+    "name": "SONIC MUSIC - سورس سونك",
+    "description": "اللهم صلِ على محمد وآل محمد",
+    "addons": ["scalingo-postgresql"],
+    "keywords": ["python3", "telegram","scalingo"], 
+    "repository": "https://github.com/SONIC-MUSIC-BOT/MAR",
+  "stack": "container",
+    "env": {
+        "AUTO_LEAVING_ASSISTANT": {
+            "description": "لمغادرة الحساب المساعد من المجموعات",
+            "required": true,
+            "value": "False"
+        },
+        "API_ID": {
+            "description": "ضع هنا الايبي ايدي الخاص بك",
+            "required": true,
+            "value":""
+        },
+        "API_HASH": {
+            "description": "ضع هنا الايبي هاش الخاص بك",
+            "required": true,
+            "value":""
+        },
+        "STRING_SESSION": {
+            "description": "هنا ضع كود سيشن بايروجرام او سيشن تيليثون",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "ضع توكن البوت المساعد الخاص بك",
+            "required": true,
+            "value":""
+        },
+        "MUSIC_BOT_NAME": {
+            "description": "ضع اسم البوت المساعد الخاص بك",
+            "required": true,
+            "value":""
+        },
+        "MONGO_DB_URI": {
+            "description": "رابط قاعدة البيانات",
+            "required": true,
+            "value": "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/lucifer?retryWrites=true&w=majority"
+        },
+        "UPSTREAM_BRANCH": {
+            "description": "لا تغيرها",
+            "required": true,
+            "value": "master"
+        },
+        "LOG_GROUP_ID": {
+            "description": "ايدي مجموعة الاستخبارات",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "ايدي حساب المطور",
+            "required": true,
+            "value": ""
+        },
+        "UPSTREAM_REPO": {
+            "description": "لا تغيره نهائيا!",
+            "required": true,
+            "value": "https://github.com/SONIC-MUSIC-BOT/MAR"
+        }
+
+    }
+  }
